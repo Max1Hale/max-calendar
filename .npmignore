@@ -1,0 +1,37 @@
+
+# Test files
+__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+jest.setup.js
+
+# Configuration files
+tsconfig.json
+webpack.config.js
+babel.config.js
+.gitignore
+.npmrc
+
+# CI files
+.github/
+
+# Development files
+dev/
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+
+# Misc
+.DS_Store
