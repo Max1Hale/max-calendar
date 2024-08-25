@@ -3,9 +3,15 @@
 	"version": "1.0.0",
 	"description": "A tailwindcss calendar in react.",
 	"main": "dist/index.js",
+	"module": "dist/index.esm.js",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"files": [
+		"dist"
+	],
 	"scripts": {
-		"build": "webpack --mode production",
-		"start": "webpack serve --mode development",
+		"build": "rollup -c",
+		"start": "rollup -c -w",
 		"test": "jest",
 		"prepublishOnly": "npm run build"
 	},
@@ -60,7 +66,12 @@
 		"typescript": "^4.5.4",
 		"webpack": "^5.94.0",
 		"webpack-cli": "^5.1.4",
-		"webpack-dev-server": "^5.0.4"
+		"webpack-dev-server": "^5.0.4",
+		"rollup": "^4.21.0",
+		"@rollup/plugin-node-resolve": "^15.2.3",
+		"@rollup/plugin-commonjs": "^26.0.0",
+		"@rollup/plugin-typescript": "^11.1.0",
+		"rollup-plugin-peer-deps-external": "^2.2.4"
 	},
 	"peerDependencies": {
 		"react": "^18.0.0",
