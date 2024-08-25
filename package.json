@@ -1,0 +1,20 @@
+{
+  "name": "max-calendar",
+  "version": "1.0.0",
+  "description": "A tailwindcss calendar in react.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@Max1Hale/max-calendar"
+  },
+  "keywords": [
+    "react",
+    "calendar",
+    "tailwindcss"
+  ],
+  "author": "Max Hale",
+  "license": "ISC"
+}
